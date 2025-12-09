@@ -838,6 +838,14 @@
     height: 65px;
   }
 
+  /* Better music button position on mobile */
+  .music-controls {
+    bottom: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    left: auto;
+  }
+
   .emoji-decoration {
     font-size: 2rem;
     gap: 1rem;
