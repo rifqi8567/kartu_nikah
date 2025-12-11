@@ -210,42 +210,60 @@ function App() {
         </div>
       </section>
 
-      {/* Photo Gallery Section */}
-      <section className="gallery-section">
-        <h2 className="gallery-title">Galeri Pengantin</h2>
-        <div className="gallery-grid">
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">📸</div>
-            <div className="gallery-caption">Momen Bahagia</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">💑</div>
-            <div className="gallery-caption">Bersama Selamanya</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">💐</div>
-            <div className="gallery-caption">Bunga Cinta</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">💍</div>
-            <div className="gallery-caption">Cincin Pernikahan</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">🎊</div>
-            <div className="gallery-caption">Perayaan Cinta</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">❤️</div>
-            <div className="gallery-caption">Cinta Sejati</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">🌹</div>
-            <div className="gallery-caption">Mawar Merah</div>
-          </div>
-          <div className="gallery-item" onClick={playClickSound}>
-            <div className="gallery-placeholder">💝</div>
-            <div className="gallery-caption">Hadiah Cinta</div>
-          </div>
+      {/* Islamic Prayers Section */}
+      <section className="prayer-section">
+        <h2 className="prayer-title">Doa-Doa Pernikahan</h2>
+
+        <div className="romantic-divider">
+          <div className="divider-line"></div>
+          <div className="divider-ornament">🕌</div>
+          <div className="divider-line"></div>
+        </div>
+
+        <p className="prayer-text">
+          Semoga Allah SWT senantiasa memberkahi pernikahan kalian dengan kebahagiaan yang abadi,
+          cinta yang tulus, dan keluarga yang penuh dengan rahmat serta keberkahan.
+        </p>
+
+        <p className="arabic-text">
+          بَارَكَ اللهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا<br />
+          وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+        </p>
+
+        <p className="prayer-translation">
+          "Semoga Allah memberkahi kalian berdua, dan melimpahkan berkah atas kalian,
+          serta mengumpulkan kalian berdua dalam kebaikan"
+        </p>
+
+        <div className="romantic-divider">
+          <div className="divider-line"></div>
+          <div className="divider-ornament">☪️</div>
+          <div className="divider-line"></div>
+        </div>
+
+        <p className="prayer-text">
+          Semoga menjadi keluarga yang sakinah, mawaddah, warahmah.
+          Diberikan keturunan yang sholeh dan sholehah, serta selalu dalam lindungan Allah SWT.
+        </p>
+
+        <p className="arabic-text">
+          وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا<br />
+          لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+        </p>
+
+        <p className="prayer-translation">
+          "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan
+          untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya,
+          dan Dia menjadikan di antaramu rasa kasih dan sayang"
+          <br />(QS. Ar-Rum: 21)
+        </p>
+
+        <div className="emoji-decoration">
+          <span>🤲</span>
+          <span>🕌</span>
+          <span>☪️</span>
+          <span>📿</span>
+          <span>✨</span>
         </div>
       </section>
 
