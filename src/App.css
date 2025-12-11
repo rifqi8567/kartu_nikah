@@ -955,12 +955,13 @@
     right: auto;
     left: 50%;
     transform: translateX(-50%);
+    animation: slideInBottom 1s ease 2s backwards;
   }
 
-  @keyframes slideInRight {
+  @keyframes slideInBottom {
     from {
       opacity: 0;
-      transform: translateX(-50%) translateY(50px);
+      transform: translateX(-50%) translateY(100px);
     }
 
     to {
